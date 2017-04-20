@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnDataChangedList
     @Override
     public void updateFailed() {
         view.dismissProgressDialog();
+        view.updateFailed();
     }
 
     //OnGotDataListener

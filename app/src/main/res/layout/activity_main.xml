@@ -20,6 +20,19 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_main"
+        android:id="@+id/include" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
 
 </android.support.design.widget.CoordinatorLayout>

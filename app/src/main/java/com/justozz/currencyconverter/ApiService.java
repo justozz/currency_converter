@@ -22,7 +22,7 @@ import java.net.URL;
 
 public class ApiService extends IntentService {
     public ApiService() {
-        super("com.justozz.currencyconverter.ApiService");
+        super(Constants.API_SERVICE_NAME);
     }
 
     @Override

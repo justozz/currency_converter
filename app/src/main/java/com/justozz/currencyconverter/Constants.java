@@ -5,6 +5,7 @@ package com.justozz.currencyconverter;
  */
 
 public class Constants {
+    public static final String API_SERVICE_NAME = "com.justozz.currencyconverter.ApiService";
     public static final String BROADCAST_ACTION = "com.justozz.currencyconverter.BROADCAST";
     public static final String EXTENDED_DATA_STATUS = "com.justozz.currencyconverter.DATA_STATUS";
 

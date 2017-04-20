@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Конвертер валют</string>
-    <string name="action_settings">Settings</string>
+    <string name="please_wait">Пожалуйста подождите</string>
+    <string name="loading_currencies">Загружаем данные о курсе валют</string>
+    <string name="error">Ошибка</string>
+    <string name="cant_get_currencies">Не удалось загрузить курсы валют. Пожалуйста, попробуйте позже</string>
+    <string name="ok">OK</string>
+    <string name="src_val">Исходная сумма</string>
+    <string name="dst_val">Результирующая сумма</string>
 </resources>
